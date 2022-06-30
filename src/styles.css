@@ -1,0 +1,17 @@
+@import-normalize;
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 1rem 2rem;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
