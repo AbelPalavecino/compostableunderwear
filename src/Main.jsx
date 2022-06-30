@@ -2,7 +2,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <h1>Compostable Underwear</h1>
+    <h1>Compostable Underwear Website</h1>
   )
 }
 
