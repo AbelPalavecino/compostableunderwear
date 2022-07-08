@@ -1,9 +1,7 @@
-
-
-const Main = () => {
+const Main = ({children}) => {
   return (
     <section className="main">
-      
+      {children}
     </section>
   )
 }

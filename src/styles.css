@@ -1,17 +1,177 @@
-@import-normalize;
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GENERAL CSS */
+
+body, html {
+    font-family: 'Mulish', sans-serif;
+}
 
 .main{
     display: flex;
     flex-direction: column;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3{
+    font-weight: 700; 
+}
+
+h1{
+    font-size: 50px;
+    letter-spacing: 0.01em;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+}
+
+h3{
+    font-size: 25px;
+    line-height: 31px;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+}
+
+.txt-center{ text-align: center; }
+.txt-left{ text-align: left; }
+.txt-right{ text-align: right; }
+
+
+/* HEADER */
+
 header{
     padding: 1rem 2rem;
     display: flex;
+    background: #EFE8E1;
 }
 
 nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.logoWebHarebell{
+    max-width: 200px;
+}
+
+/* BUTTONS */
+
+.navButton{
+    background-color: transparent; /* Transparente */
+    border: 1px solid #555A2B;
+    color: #555A2B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
+
+.primaryButton{
+    background-color: #555A2B; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
+
+/***** SECTIONS *****/
+
+.banner-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #EFE8E1;
+    align-items: center;
+}
+
+.col{
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.principal-categories{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.itemCategorie{
+    max-width: 250px;
+    text-align: center;
+}
+
+.slogan-container{
+    background-color: #555A2B;
+    color: white;
+    padding: 25px 15px;
 }
