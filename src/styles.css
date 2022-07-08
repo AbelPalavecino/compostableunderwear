@@ -145,7 +145,7 @@ nav{
 
 /***** SECTIONS *****/
 
-.banner-intro{
+section.banner-intro{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -158,7 +158,7 @@ nav{
     width: 50%;
 }
 
-.principal-categories{
+section.principal-categories{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -170,8 +170,15 @@ nav{
     text-align: center;
 }
 
-.slogan-container{
+section.slogan-container{
     background-color: #555A2B;
     color: white;
     padding: 25px 15px;
+}
+
+section.desing-features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
