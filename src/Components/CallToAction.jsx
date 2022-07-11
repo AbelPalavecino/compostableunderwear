@@ -2,7 +2,10 @@ import React from 'react'
 
 const CallToAction = () => {
   return (
-    <div>CallToAction</div>
+    <section className="CallToAction">
+      <h2>Not Just Underwear, Undercare.</h2>
+      <button className="primaryButton">SHOP NOW</button>
+    </section>
   )
 }
 

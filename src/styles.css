@@ -155,7 +155,7 @@ section.banner-intro{
 
 .col{
     box-sizing: border-box;
-    width: 50%;
+    width: 50%
 }
 
 section.principal-categories{
@@ -181,4 +181,24 @@ section.desing-features{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+section.PrincipalFeatures{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+section.CallToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #EFE8E1;
 }
