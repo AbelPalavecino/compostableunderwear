@@ -1,27 +1,27 @@
 import React from 'react'
 import Card from '../Components/Card/Card'
 // import itemCategorie from '../assets/js/ItemsCategories'
-import harebellLogo from '../assets/img/logoWebHarebell.png';
+import activeUnderwear from '../assets/img/active.jpg';
 
 const PrincipalCategories = () => {
   
   const itemCategorie1 = {
-    categoria: 'active',
-    urlImagen: harebellLogo,
+    categoria: 'Active',
+    urlImagen: activeUnderwear,
   }
 
   const itemCategorie2 = {
-    categoria: 'active',
-    urlImagen: harebellLogo,
+    categoria: 'Maternity',
+    urlImagen: activeUnderwear,
   }
 
   const itemCategorie3 = {
-    categoria: 'active',
-    urlImagen: harebellLogo,
+    categoria: 'Sexy',
+    urlImagen: activeUnderwear,
   }
   
   return (
-    <section className="principal-categories">
+    <section className="principal-categories px-4 py-24">
         <Card itemCategorie={itemCategorie1}/>
         <Card itemCategorie={itemCategorie2}/>
         <Card itemCategorie={itemCategorie3}/>
