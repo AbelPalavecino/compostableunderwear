@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
 
-const ButtonPrimary = ({ primaryButton }) => {
+const ButtonPrimary = ({ textBtn }) => {
   return (
     <Fragment>
-        {primaryButton.primaryButton}
+        <button className="primaryButton">{textBtn.text}</button>
     </Fragment>
   )
 }

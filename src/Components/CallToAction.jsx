@@ -1,10 +1,15 @@
 import React from 'react'
+import ButtonPrimary from './Buttons/ButtonPrimary'
+
+const seeMoreBtn = {
+  text: 'SEE MORE'
+}
 
 const CallToAction = () => {
   return (
     <section className="CallToAction pb-24">
-      <h2>Not Just Underwear, Undercare.</h2>
-      <button className="primaryButton">SHOP NOW</button>
+      <h2 className='pb-12'>Not Just Underwear, Undercare</h2>
+      <ButtonPrimary textBtn={seeMoreBtn}/>
     </section>
   )
 }

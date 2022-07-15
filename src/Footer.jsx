@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="py-12 px-20">
       <div className="container">
-        <ul className="social-media">
+        <ul className="social-media pb-4">
           <li><a href="#"><box-icon  type="logo" name="facebook-square"/></a></li>
           <li><a href="#"><box-icon type='logo' name='instagram'/></a></li>
           <li><a href="#"><box-icon name='pinterest' type='logo' /></a></li>
