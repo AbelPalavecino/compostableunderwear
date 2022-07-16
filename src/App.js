@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { BrowserRouter} from "react-router-dom"
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
@@ -12,19 +13,21 @@ import PrincipalFeatures from './Components/PrincipalFeatures';
 
 function App() {
   return (
-    <Fragment>
-      <Header/>
-      <Main>
-        <BannerIntro/>
-        <PrincipalCategories/>
-        <Slogan/>
-        <DesignFeatures/>
-        <PrincipalFeatures/>
-        <EcoFeatures/>
-        <CallToAction/>
-      </Main>
-      <Footer/>
-    </Fragment>
+    <BrowserRouter>
+      <Fragment>
+        <Header/>
+        <Main>
+          <BannerIntro/>
+          <PrincipalCategories/>
+          <Slogan/>
+          <DesignFeatures/>
+          <PrincipalFeatures/>
+          <EcoFeatures/>
+          <CallToAction/>
+        </Main>
+        <Footer/>
+      </Fragment>
+    </BrowserRouter>
   );
 }
 
