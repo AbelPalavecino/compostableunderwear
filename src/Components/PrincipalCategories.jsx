@@ -31,11 +31,13 @@ const PrincipalCategories = () => {
   return (
     <Fragment>
       <h2 className="pt-24 txt-center">Designed to redefine the way you care</h2>
-      <section className="principal-categories px-4 py-24">
+      <section className="px-4 py-24">
+        <div className="container-content mx-auto principal-categories">
           <Card itemCategorie={itemCategorie_a}/>
           <Card itemCategorie={itemCategorie_b}/>
           <Card itemCategorie={itemCategorie_c}/>
           <Card itemCategorie={itemCategorie_d}/>
+        </div>
       </section>
     </Fragment>
   )

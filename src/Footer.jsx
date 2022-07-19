@@ -4,7 +4,7 @@ import 'boxicons'
 const Footer = () => {
   return (
     <footer className="py-12 px-20">
-      <div className="container">
+      <div className="container-content mx-auto flex flex-col justify-center items-center">
         <ul className="social-media pb-4">
           <li><a href="#"><box-icon  type="logo" name="facebook-square"/></a></li>
           <li><a href="#"><box-icon type='logo' name='instagram'/></a></li>

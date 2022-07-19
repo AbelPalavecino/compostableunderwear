@@ -174,6 +174,12 @@ p{
     margin-right: auto;
 }
 
+/* BACKGROUND COLORS */
+
+.bg-merino{
+    background: #EFE8E1;
+}
+
 
 /* HEADER */
 
@@ -224,11 +230,10 @@ nav{
 
 /***** SECTIONS *****/
 
-section.banner-intro{
+.banner-intro{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #EFE8E1;
     align-items: center;
 }
 
@@ -237,7 +242,7 @@ section.banner-intro{
     width: 50%
 }
 
-section.principal-categories{
+.principal-categories{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -255,14 +260,14 @@ section.slogan-container{
     padding: 25px 15px;
 }
 
-section.desing-features{
+.desing-features{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-section.PrincipalFeatures{
+.PrincipalFeatures{
     display: flex;
     justify-content: space-around;
     flex-direction: row;

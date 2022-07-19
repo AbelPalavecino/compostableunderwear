@@ -35,8 +35,8 @@ const PrincipalFeatures = () => {
   return (
     <Fragment>
       {/* <h2 className="pb-24 txt-center">Underwear that absorbs your period</h2> */}
-      <section className="PrincipalFeatures pb-24 px-12">
-        <div className="container-content mx-auto">
+      <section className="pb-24 px-12">
+        <div className="container-content mx-auto PrincipalFeatures">
           {/* <ItemFeatured featured={featured_a}/> */}
           <ItemFeatured featured={featured_b}/>
           <ItemFeatured featured={featured_c}/>
