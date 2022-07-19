@@ -10,8 +10,8 @@ const DesignFeatures = () => {
   return (
     <section className="desing-features py-24 px-4">
       <div className="col px-12">
-        <h2>Designed for your body, made to raise your standards</h2>
-        <p className="py-12">We make high quality clothing from organic and seamless cotton in all sizes.</p>
+        <h2>Designed to enhance your body regardless of your body shape</h2>
+        <p className="py-12">We make high quality underwear from OEKO- TEX 100 certified bamboo and organic cotton cotton in all sizes</p>
         <ButtonPrimary textBtn={shopNowBtn}/>
       </div>
       <div className="col px-12">

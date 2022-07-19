@@ -11,7 +11,7 @@ const BannerIntro = () => {
     <section className='banner-intro px-20'>
       <div className="col">
         <h1>Eco-Friendly Underwear</h1>
-        <h4 className="py-12">Biodegradable organic cotton minimalist lingerie in styles and colors you can wear and love for years</h4>
+        <h4 className="py-12">Compostable bamboo and organic cotton minimalist lingerie you will wear and love for years</h4>
         <ButtonPrimary textBtn={seeMoreBtn}/>
         {/* <button className="primaryButton">SEE MORE</button> */}
       </div>

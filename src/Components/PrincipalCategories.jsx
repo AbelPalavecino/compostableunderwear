@@ -7,30 +7,30 @@ import sexyPhoto from '../assets/img/sensual.jpg';
 import bodysuitsPhoto from '../assets/img/bodysuits.jpg';
 
 const PrincipalCategories = () => {
-  
+
   const itemCategorie_a = {
-    categoria: 'Maternity',
-    urlImagen: maternityPhoto,
+    categoria: 'Bodysuits',
+    urlImagen: bodysuitsPhoto,
   }
 
   const itemCategorie_b = {
-    categoria: 'Sensual',
-    urlImagen: sexyPhoto,
-  }
-
-  const itemCategorie_c = {
     categoria: 'Active',
     urlImagen: activePhoto,
   }
 
+  const itemCategorie_c = {
+    categoria: 'Sensual',
+    urlImagen: sexyPhoto,
+  }
+  
   const itemCategorie_d = {
-    categoria: 'Bodysuits',
-    urlImagen: bodysuitsPhoto,
+    categoria: 'Maternity',
+    urlImagen: maternityPhoto,
   }
   
   return (
     <Fragment>
-      <h2 className="pt-24 txt-center">Designed to redefine the way we dress.</h2>
+      <h2 className="pt-24 txt-center">Designed to redefine the way you care</h2>
       <section className="principal-categories px-4 py-24">
           <Card itemCategorie={itemCategorie_a}/>
           <Card itemCategorie={itemCategorie_b}/>
