@@ -159,6 +159,21 @@ p{
 .txt-left{ text-align: left; }
 .txt-right{ text-align: right; }
 
+/* FLEX */
+
+.flex{ display: flex; }
+.items-center{ align-items: center; }
+.flex-col{ flex-direction: column; }
+.flex-row{ flex-direction: row; }
+.justify-center{ justify-content: center; }
+
+/* MARGINS */
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* HEADER */
 
@@ -310,5 +325,12 @@ footer {
     align-items: center;
 }
 
-/* BANNER INTRO */
+/* MEDIA QUERYS */
 
+@media (min-width: 1536px){
+
+.container-content {
+    max-width: 1536px;
+}
+
+}

@@ -36,11 +36,13 @@ const PrincipalFeatures = () => {
     <Fragment>
       {/* <h2 className="pb-24 txt-center">Underwear that absorbs your period</h2> */}
       <section className="PrincipalFeatures pb-24 px-12">
+        <div className="container-content mx-auto">
           {/* <ItemFeatured featured={featured_a}/> */}
           <ItemFeatured featured={featured_b}/>
           <ItemFeatured featured={featured_c}/>
           <ItemFeatured featured={featured_d}/>
           <ItemFeatured featured={featured_e}/>
+        </div>
       </section>
     </Fragment>
   )
