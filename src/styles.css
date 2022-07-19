@@ -51,6 +51,8 @@ body, html {
     font-family: 'Mulish', sans-serif;
 }
 
+a{ text-decoration: none; }
+
 .py-24{
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -202,6 +204,7 @@ nav{
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 /***** SECTIONS *****/

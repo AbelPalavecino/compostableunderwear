@@ -4,6 +4,7 @@ import 'boxicons'
 const ButtonPrimary = ({ textBtn }) => {
   return (
     <Fragment>
+      <a href="https://harebellshop.com/product-category/clothing/intimates/">
         <button className="primaryButton">{textBtn.text} 
           <span>
             <box-icon
@@ -13,6 +14,7 @@ const ButtonPrimary = ({ textBtn }) => {
             />
           </span>
         </button>
+      </a>
     </Fragment>
   )
 }
