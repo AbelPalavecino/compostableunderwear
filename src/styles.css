@@ -211,6 +211,7 @@ nav{
     display: inline-block;
     font-size: 16px;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 .primaryButton{
@@ -229,6 +230,8 @@ nav{
 }
 
 /***** SECTIONS *****/
+
+.v-mobile{ display: none; }
 
 .banner-intro{
     display: flex;
@@ -330,6 +333,11 @@ footer {
     align-items: center;
 }
 
+.Copyright{
+    font-size: 13px;
+    text-align: center;
+}
+
 /* MEDIA QUERYS */
 
 @media (min-width: 1536px){
@@ -339,3 +347,67 @@ footer {
 }
 
 }
+
+@media (max-width: 600px){
+
+    /* PADDINGS */
+
+    .py-24{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .px-20{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .px-12{
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+
+    /* INTRO */
+
+    .v-desktop{ display: none; }
+    .v-mobile{ display: block; }
+
+    .banner-intro{
+        flex-direction: column;
+        padding-bottom: 3rem ;
+    }
+    
+    .col{
+        width: 95%
+    }
+
+    /* SECTIONS */
+    
+    .principal-categories{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .itemCategorie{
+        max-width: 150px;
+        padding: 1rem;
+    }
+    
+    .desing-features{
+        flex-direction: column;
+    }
+    
+    .PrincipalFeatures{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        padding: 1rem;
+    }
+    
+    section.CallToAction {
+        flex-direction: column;
+    }
+    
+    }

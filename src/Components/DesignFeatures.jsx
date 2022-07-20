@@ -14,6 +14,7 @@ const DesignFeatures = () => {
           <h2>Designed to enhance your body regardless of your body shape</h2>
           <p className="py-12">We make high quality underwear from OEKO- TEX 100 certified bamboo and organic cotton cotton in all sizes</p>
           <ButtonPrimary textBtn={shopNowBtn}/>
+          <br></br><br></br>
         </div>
         <div className="col px-12">
           <img src={curvyUnderwear} alt="CompostableUnderwearCurvy" />

@@ -8,7 +8,7 @@ const NavBar = () => {
       <nav>
         <li className='logoWebHarebell'><a tittle="Click to home" href="#"><img src={itemCategorie[0].image} alt="Logo Harebell Shop" /></a></li>
         <div className="navBarMenu">
-          <a href="#"><button className="navButton">Shop Now</button></a>
+          <a href="https://harebellshop.com/product-category/clothing/intimates/"><button className="navButton">Shop Now</button></a>
         </div>
       </nav>
     </Fragment>
